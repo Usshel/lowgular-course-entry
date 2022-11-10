@@ -16,5 +16,6 @@ import { HttpClient } from "@angular/common/http";
 })
 export class EmployeeListComponent {
   constructor(private _client: HttpClient ){}
-  data$: Observable<EmployeeModel[] | null> = this._client.get<EmployeeModel[]>( 'assets/data/employees.jsoon');
+  data$: Observable<EmployeeModel[] | null> = this._client.get<EmployeeModel[]>( 'assets/data/employees.json');
 }
+//3
