@@ -1,4 +1,5 @@
-<h1>Employee list_</h1>
+<h1>Employees list</h1>
+<h2>{{title}}</h2>
 <ul *ngIf="data$ | async as data; else empty">
   <li *ngFor="let employee of data">{{ employee.id }}: {{ employee.name }}: {{employee.email}}</li>
 </ul>

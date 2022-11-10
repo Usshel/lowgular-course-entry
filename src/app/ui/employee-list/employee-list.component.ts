@@ -15,7 +15,8 @@ import { HttpClient } from "@angular/common/http";
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class EmployeeListComponent {
+  title: string = 'list of employers animals';
   constructor(private _client: HttpClient ){}
-  data$: Observable<EmployeeModel[] | null> = this._client.get<EmployeeModel[]>( 'assets/data/employees.json');
+  data$: Observable<EmployeeModel[] | null> = this._client.get<EmployeeModel[]>('assets/data/employees.json');
 }
 //3
