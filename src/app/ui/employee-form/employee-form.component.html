@@ -1,7 +1,7 @@
-<form [formGroup]="employeeform" (ngSubmit)="onButtonClicked(employeeform.value)" >
-  <input type="text" formControlName="email" placeholder="Email">
+<form [formGroup]="employeeform" (ngSubmit)="onFormSubmitted(employeeform.value)" >
+  <input type="text" formControlName="name" placeholder="Name">
   <input type="number" formControlName="age" placeholder="Age">
-  <input type="number" formControlName="salary" placeholder="Salary">
+  <input type="text" formControlName="salary" placeholder="Salary">
   <input type="submit" [disabled]="employeeform.invalid" value="Submit">
 </form>
 
