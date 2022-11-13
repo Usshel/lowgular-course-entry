@@ -1,0 +1,28 @@
+import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+
+@Component({
+  selector: 'app-employee-form',
+  templateUrl: './employee-form.component.html',
+  encapsulation: ViewEncapsulation.Emulated,
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class EmployeeFormComponent {
+  readonly employeeform: FormGroup = new FormGroup({
+    email: new FormControl(null, [Validators.required]),
+    age: new FormControl(null, [Validators.min(1)]),
+    salary: new FormControl( null, [Validators.required,Validators.min(1)])
+  });
+
+
+  onButtonClicked(form: {email:string,age:number,salary:number}){
+    alert('User was successfully added to the database.'+
+      'Email: ' + form.email +
+      ' Age: ' + form.age +
+      ' Salary: ' + form.salary);
+  }
+
+
+
+
+}
