@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import {map, Observable} from 'rxjs';
 import { PersonModel } from '../model/person.model';
 import { CreateEmployeeModel } from '../model/create-employee.model';
 
@@ -12,8 +12,13 @@ export class EmployeeService {
     return this._httpClient.get<PersonModel[]>('assets/data/people.json')
   }
 
-  create(employee: CreateEmployeeModel): Observable<any> {    '<!--{sending data to API}-->'
-    return this._httpClient.post('https://dummy.restapiexample.com/create', employee, undefined);
+  create(employee: CreateEmployeeModel): Observable<any> {
+    '<!--{sending data to API}-->'
+    return this._httpClient.post('https://dummy.restapiexample.com/create', employee).pipe(map(_=>void 0));
 
+  }
+
+  delete(id: string): Observable<void> {
+    return this._httpClient.delete(	'https://dummy.restapiexample.com/api/v1/delete/'+ id).pipe(map(_=>void 0))
   }
 }

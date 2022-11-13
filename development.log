@@ -17032,3 +17032,2799 @@
 	"level": "info",
 	"message": "[API] Response ok: injectable/inject"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+		"position": 658
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "JMgt2d-N5X",
+			"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+		"position": 658
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for rxjs/methods/flow: {
+	"action": "rxjs/methods/flow",
+	"params": {
+		"actionId": "RXJS_METHOD_CREATE",
+		"label": "Create New Method",
+		"callPath": []
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "JMgt2d-N5X",
+			"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/methods/flow"
+}
+[info] [CLI] Calling Query rxjs/methods/flow: {
+	"funcParams": {
+		"actionId": "RXJS_METHOD_CREATE",
+		"label": "Create New Method",
+		"callPath": []
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/methods/flow"
+}
+[info] [CLI] Called Query rxjs/methods/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "name",
+				"title": "What is the method name?",
+				"subtitle": "e.g getAll",
+				"type": "text-input"
+			},
+			{
+				"contextId": "params",
+				"title": "What are the method parameters?",
+				"subtitle": "Optional: Can be empty... or csv format",
+				"type": "multi-input"
+			},
+			{
+				"contextId": "returnType",
+				"title": "Which return type to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "Observable<CreateEmployeeModel>"
+					},
+					{
+						"name": "Observable<CreateEmployeeModel[]>"
+					},
+					{
+						"name": "Observable<EmployeeModel>"
+					},
+					{
+						"name": "Observable<EmployeeModel[]>"
+					},
+					{
+						"name": "Observable<PersonModel>"
+					},
+					{
+						"name": "Observable<PersonModel[]>"
+					},
+					{
+						"name": "Observable<ProjectModel>"
+					},
+					{
+						"name": "Observable<ProjectModel[]>"
+					},
+					{
+						"name": "Observable<ApiResponse>"
+					},
+					{
+						"name": "Observable<ApiResponse[]>"
+					},
+					{
+						"name": "Observable<string>"
+					},
+					{
+						"name": "Observable<string[]>"
+					},
+					{
+						"name": "Observable<number>"
+					},
+					{
+						"name": "Observable<number[]>"
+					},
+					{
+						"name": "Observable<boolean>"
+					},
+					{
+						"name": "Observable<boolean[]>"
+					},
+					{
+						"name": "Observable<void>"
+					},
+					{
+						"name": "Observable<void[]>"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "method-signature/create",
+				"payload": {
+					"name": "name.value",
+					"params": "params",
+					"returnType": "returnType.name"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/methods/flow"
+}
+[info] [API] Response ok: rxjs/methods/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "name",
+				"title": "What is the method name?",
+				"subtitle": "e.g getAll",
+				"type": "text-input"
+			},
+			{
+				"contextId": "params",
+				"title": "What are the method parameters?",
+				"subtitle": "Optional: Can be empty... or csv format",
+				"type": "multi-input"
+			},
+			{
+				"contextId": "returnType",
+				"title": "Which return type to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "Observable<CreateEmployeeModel>"
+					},
+					{
+						"name": "Observable<CreateEmployeeModel[]>"
+					},
+					{
+						"name": "Observable<EmployeeModel>"
+					},
+					{
+						"name": "Observable<EmployeeModel[]>"
+					},
+					{
+						"name": "Observable<PersonModel>"
+					},
+					{
+						"name": "Observable<PersonModel[]>"
+					},
+					{
+						"name": "Observable<ProjectModel>"
+					},
+					{
+						"name": "Observable<ProjectModel[]>"
+					},
+					{
+						"name": "Observable<ApiResponse>"
+					},
+					{
+						"name": "Observable<ApiResponse[]>"
+					},
+					{
+						"name": "Observable<string>"
+					},
+					{
+						"name": "Observable<string[]>"
+					},
+					{
+						"name": "Observable<number>"
+					},
+					{
+						"name": "Observable<number[]>"
+					},
+					{
+						"name": "Observable<boolean>"
+					},
+					{
+						"name": "Observable<boolean[]>"
+					},
+					{
+						"name": "Observable<void>"
+					},
+					{
+						"name": "Observable<void[]>"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "method-signature/create",
+				"payload": {
+					"name": "name.value",
+					"params": "params",
+					"returnType": "returnType.name"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/methods/flow"
+}
+[info] [API] Request for method-signature/create: {
+	"action": "method-signature/create",
+	"params": {
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "JMgt2d-N5X",
+			"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for method-signature/create"
+}
+[info] [CLI] Calling Command method-signature/create: {
+	"funcParams": {
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command method-signature/create"
+}
+[info] [CommandBus]: Dispatching command ADD_READ_METHOD_SIGNATURE: {
+	"commandName": "ADD_READ_METHOD_SIGNATURE",
+	"payload": {
+		"entityFilePath": "D:/Projekty/src/app/services/employee.service.ts",
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_READ_METHOD_SIGNATURE"
+}
+[info] [CommandBus]: Handled  ADD_READ_METHOD_SIGNATURE: {
+	"commandName": "ADD_READ_METHOD_SIGNATURE",
+	"payload": {
+		"entityFilePath": "D:/Projekty/src/app/services/employee.service.ts",
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_READ_METHOD_SIGNATURE"
+}
+[info] [CLI] Called Command method-signature/create: {
+	"message": "[CLI] Called Command method-signature/create",
+	"level": "info"
+}
+[info] [API] Response ok: method-signature/create: {
+	"result": {
+		"filePath": "D:/Projekty/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: method-signature/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+		"position": 703
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "6ObrCxy_FA",
+			"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+		"position": 703
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeService"
+		},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"label": "delete()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"delete"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeService"
+		},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"label": "delete()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"delete"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for rxjs/methods/statement/flow: {
+	"action": "rxjs/methods/statement/flow",
+	"params": {
+		"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+		"label": "Create Statement",
+		"callPath": [
+			"delete"
+		]
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "6ObrCxy_FA",
+			"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/methods/statement/flow"
+}
+[info] [CLI] Calling Query rxjs/methods/statement/flow: {
+	"funcParams": {
+		"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+		"label": "Create Statement",
+		"callPath": [
+			"delete"
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/methods/statement/flow"
+}
+[info] [CLI] Called Query rxjs/methods/statement/flow: {
+	"result": {
+		"context": {
+			"callPath": {
+				"value": [
+					"delete"
+				]
+			}
+		},
+		"steps": [
+			{
+				"contextId": "dependency",
+				"title": "Which dependency to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "EmployeeService",
+						"path": "D:/Projekty/src/app/services/employee.service.ts"
+					},
+					{
+						"name": "HttpClient",
+						"path": "D:/Projekty/node_modules/@angular/common/http/http.d.ts"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			},
+			{
+				"contextId": "observable",
+				"title": "Which observable to use?",
+				"type": "multi-option",
+				"options": {
+					"EmployeeService": [
+						{
+							"name": "getAll()",
+							"callPath": [
+								"getAll"
+							]
+						},
+						{
+							"name": "create()",
+							"callPath": [
+								"create"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						}
+					],
+					"HttpClient": [
+						{
+							"name": "request()",
+							"callPath": [
+								"request"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						},
+						{
+							"name": "get()",
+							"callPath": [
+								"get"
+							]
+						},
+						{
+							"name": "head()",
+							"callPath": [
+								"head"
+							]
+						},
+						{
+							"name": "jsonp()",
+							"callPath": [
+								"jsonp"
+							]
+						},
+						{
+							"name": "options()",
+							"callPath": [
+								"options"
+							]
+						},
+						{
+							"name": "patch()",
+							"callPath": [
+								"patch"
+							]
+						},
+						{
+							"name": "post()",
+							"callPath": [
+								"post"
+							]
+						},
+						{
+							"name": "put()",
+							"callPath": [
+								"put"
+							]
+						}
+					]
+				},
+				"extraOptions": [],
+				"param": "dependency.name",
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "rxjs/methods/statement/create",
+				"payload": {
+					"callPath": "callPath.value",
+					"dependencyCallPath": "observable.callPath",
+					"dependencyType": "dependency.name",
+					"dependencyPath": "dependency.path"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/methods/statement/flow"
+}
+[info] [API] Response ok: rxjs/methods/statement/flow: {
+	"result": {
+		"context": {
+			"callPath": {
+				"value": [
+					"delete"
+				]
+			}
+		},
+		"steps": [
+			{
+				"contextId": "dependency",
+				"title": "Which dependency to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "EmployeeService",
+						"path": "D:/Projekty/src/app/services/employee.service.ts"
+					},
+					{
+						"name": "HttpClient",
+						"path": "D:/Projekty/node_modules/@angular/common/http/http.d.ts"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			},
+			{
+				"contextId": "observable",
+				"title": "Which observable to use?",
+				"type": "multi-option",
+				"options": {
+					"EmployeeService": [
+						{
+							"name": "getAll()",
+							"callPath": [
+								"getAll"
+							]
+						},
+						{
+							"name": "create()",
+							"callPath": [
+								"create"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						}
+					],
+					"HttpClient": [
+						{
+							"name": "request()",
+							"callPath": [
+								"request"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						},
+						{
+							"name": "get()",
+							"callPath": [
+								"get"
+							]
+						},
+						{
+							"name": "head()",
+							"callPath": [
+								"head"
+							]
+						},
+						{
+							"name": "jsonp()",
+							"callPath": [
+								"jsonp"
+							]
+						},
+						{
+							"name": "options()",
+							"callPath": [
+								"options"
+							]
+						},
+						{
+							"name": "patch()",
+							"callPath": [
+								"patch"
+							]
+						},
+						{
+							"name": "post()",
+							"callPath": [
+								"post"
+							]
+						},
+						{
+							"name": "put()",
+							"callPath": [
+								"put"
+							]
+						}
+					]
+				},
+				"extraOptions": [],
+				"param": "dependency.name",
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "rxjs/methods/statement/create",
+				"payload": {
+					"callPath": "callPath.value",
+					"dependencyCallPath": "observable.callPath",
+					"dependencyType": "dependency.name",
+					"dependencyPath": "dependency.path"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/methods/statement/flow"
+}
+[info] [API] Request for rxjs/methods/statement/create: {
+	"action": "rxjs/methods/statement/create",
+	"params": {
+		"callPath": [
+			"delete"
+		],
+		"dependencyCallPath": [
+			"delete"
+		],
+		"dependencyType": "HttpClient",
+		"dependencyPath": "D:/Projekty/node_modules/@angular/common/http/http.d.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "6ObrCxy_FA",
+			"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/methods/statement/create"
+}
+[info] [CLI] Calling Command rxjs/methods/statement/create: {
+	"funcParams": {
+		"callPath": [
+			"delete"
+		],
+		"dependencyCallPath": [
+			"delete"
+		],
+		"dependencyType": "HttpClient",
+		"dependencyPath": "D:/Projekty/node_modules/@angular/common/http/http.d.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command rxjs/methods/statement/create"
+}
+[info] [CommandBus]: Dispatching command AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"entityFilePath": "D:/Projekty/src/app/services/employee.service.ts",
+		"callPath": [
+			"delete"
+		],
+		"dependencyFilePath": "D:/Projekty/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"dependencyCallPath": [
+			"delete"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddCallCommand"
+}
+[info] [CommandBus]: Handled  AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"entityFilePath": "D:/Projekty/src/app/services/employee.service.ts",
+		"callPath": [
+			"delete"
+		],
+		"dependencyFilePath": "D:/Projekty/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"dependencyCallPath": [
+			"delete"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddCallCommand"
+}
+[info] [CLI] Called Command rxjs/methods/statement/create: {
+	"message": "[CLI] Called Command rxjs/methods/statement/create",
+	"level": "info"
+}
+[info] [API] Response ok: rxjs/methods/statement/create: {
+	"result": {
+		"filePath": "D:/Projekty/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/methods/statement/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+		"position": 750
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "TNBewji9Ks",
+			"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+		"position": 750
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeService",
+			"parentMethod": "delete"
+		},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"label": "delete()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"delete"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"delete"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"delete"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeService",
+			"parentMethod": "delete"
+		},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"label": "delete()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"delete"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"delete"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"delete"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for rxjs/call-expressions/map-to/flow: {
+	"action": "rxjs/call-expressions/map-to/flow",
+	"params": {
+		"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+		"label": "Map To",
+		"callPath": [
+			"delete"
+		]
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "TNBewji9Ks",
+			"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/call-expressions/map-to/flow"
+}
+[info] [CLI] Calling Query rxjs/call-expressions/map-to/flow: {
+	"funcParams": {
+		"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+		"label": "Map To",
+		"callPath": [
+			"delete"
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/call-expressions/map-to/flow"
+}
+[info] [CLI] Called Query rxjs/call-expressions/map-to/flow: {
+	"result": {
+		"context": {
+			"callExpression": {
+				"callPath": [
+					"delete"
+				]
+			}
+		},
+		"steps": [
+			{
+				"contextId": "entity",
+				"title": "What do you want to map to?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "CreateEmployeeModel",
+						"path": "D:/Projekty/src/app/model/create-employee.model.ts"
+					},
+					{
+						"name": "EmployeeModel",
+						"path": "D:/Projekty/src/app/model/employee.model.ts"
+					},
+					{
+						"name": "PersonModel",
+						"path": "D:/Projekty/src/app/model/person.model.ts"
+					},
+					{
+						"name": "ProjectModel",
+						"path": "D:/Projekty/src/app/model/project.model.ts"
+					},
+					{
+						"name": "ApiResponse",
+						"path": "D:/Projekty/src/app/services/api.response.ts"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "rxjs/call-expressions/map-to",
+				"payload": {
+					"callExpressionCallPath": "callExpression.callPath",
+					"dependencyName": "entity.name",
+					"dependencyPath": "entity.path"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/call-expressions/map-to/flow"
+}
+[info] [API] Response ok: rxjs/call-expressions/map-to/flow: {
+	"result": {
+		"context": {
+			"callExpression": {
+				"callPath": [
+					"delete"
+				]
+			}
+		},
+		"steps": [
+			{
+				"contextId": "entity",
+				"title": "What do you want to map to?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "CreateEmployeeModel",
+						"path": "D:/Projekty/src/app/model/create-employee.model.ts"
+					},
+					{
+						"name": "EmployeeModel",
+						"path": "D:/Projekty/src/app/model/employee.model.ts"
+					},
+					{
+						"name": "PersonModel",
+						"path": "D:/Projekty/src/app/model/person.model.ts"
+					},
+					{
+						"name": "ProjectModel",
+						"path": "D:/Projekty/src/app/model/project.model.ts"
+					},
+					{
+						"name": "ApiResponse",
+						"path": "D:/Projekty/src/app/services/api.response.ts"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "rxjs/call-expressions/map-to",
+				"payload": {
+					"callExpressionCallPath": "callExpression.callPath",
+					"dependencyName": "entity.name",
+					"dependencyPath": "entity.path"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/call-expressions/map-to/flow"
+}
+[info] [API] Request for rxjs/call-expressions/map-to: {
+	"action": "rxjs/call-expressions/map-to",
+	"params": {
+		"callExpressionCallPath": [
+			"delete"
+		],
+		"dependencyName": "ProjectModel",
+		"dependencyPath": "D:/Projekty/src/app/model/project.model.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "TNBewji9Ks",
+			"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/call-expressions/map-to"
+}
+[info] [CLI] Calling Command rxjs/call-expressions/map-to: {
+	"funcParams": {
+		"callExpressionCallPath": [
+			"delete"
+		],
+		"dependencyName": "ProjectModel",
+		"dependencyPath": "D:/Projekty/src/app/model/project.model.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command rxjs/call-expressions/map-to"
+}
+[info] [CommandBus]: Dispatching command MapToObservableCommand: {
+	"commandName": "MapToObservableCommand",
+	"payload": {
+		"entityFilePath": "D:/Projekty/src/app/services/employee.service.ts",
+		"entityMemberCallPath": [
+			"delete"
+		],
+		"dependencyFilePath": "D:/Projekty/src/app/model/project.model.ts",
+		"dependencyName": "ProjectModel"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MapToObservableCommand"
+}
+[info] [CommandBus]: Handled  MapToObservableCommand: {
+	"commandName": "MapToObservableCommand",
+	"payload": {
+		"entityFilePath": "D:/Projekty/src/app/services/employee.service.ts",
+		"entityMemberCallPath": [
+			"delete"
+		],
+		"dependencyFilePath": "D:/Projekty/src/app/model/project.model.ts",
+		"dependencyName": "ProjectModel"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MapToObservableCommand"
+}
+[info] [CLI] Called Command rxjs/call-expressions/map-to: {
+	"message": "[CLI] Called Command rxjs/call-expressions/map-to",
+	"level": "info"
+}
+[info] [API] Response ok: rxjs/call-expressions/map-to: {
+	"result": {
+		"filePath": "D:/Projekty/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/call-expressions/map-to"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+		"position": 754
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "JrXNktBS2g",
+			"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Projekty/src/app/services/employee.service.ts",
+		"position": 754
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeService",
+			"parentMethod": "delete"
+		},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"label": "delete()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"delete"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"delete"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"delete"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeService",
+			"parentMethod": "delete"
+		},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"label": "delete()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"delete"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"delete"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"delete"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 681
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "A-jqpgMOv5",
+			"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 681
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentMethod": "remove"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "remove()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"remove"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentMethod": "remove"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "remove()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"remove"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "A-jqpgMOv5",
+			"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "D:/Projekty/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "ANGULAR_SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "D:/Projekty/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "ANGULAR_SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 676
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "Dp-MxVAs2T",
+			"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 676
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentMethod": "remove"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "remove()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"remove"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentMethod": "remove"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "remove()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"remove"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "Dp-MxVAs2T",
+			"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "D:/Projekty/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "ANGULAR_SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "D:/Projekty/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "ANGULAR_SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 677
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "wP43tPVsL2",
+			"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 677
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentMethod": "remove"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "remove()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"remove"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentMethod": "remove"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "remove()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"remove"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 677
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "eMS9QMKCwk",
+			"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 677
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentMethod": "remove"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "remove()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"remove"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentMethod": "remove"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "remove()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"remove"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "eMS9QMKCwk",
+			"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "D:/Projekty/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "ANGULAR_SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "D:/Projekty/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "ANGULAR_SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingPath": "D:/Projekty/src/app/services/project.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Projekty"
+		},
+		"userContext": {
+			"id": "u2TqzNHZRY",
+			"correlationId": "eMS9QMKCwk",
+			"clickedPath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingPath": "D:/Projekty/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingFilePath": "D:/Projekty/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingFilePath": "D:/Projekty/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject: {
+	"message": "[CLI] Called Command injectable/inject",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject: {
+	"result": {
+		"filePath": "D:/Projekty/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject"
+}
