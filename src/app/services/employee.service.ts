@@ -4,6 +4,7 @@ import {map, Observable} from "rxjs";
 import {EmployeeModel} from "../model/employee.model";
 import {ApiResponse} from "./api.response";
 import {EmployeeResponse} from "./employee.response";
+import {CreateEmployeeModel} from "../model/create-employee.model";
 
 @Injectable()
 export class EmployeeService {
@@ -27,7 +28,9 @@ export class EmployeeService {
     )
   }
 
-  create():
+  create(employee: CreateEmployeeModel): Observable<any> {
+    return this._httpClient.post(	'https://dummy.restapiexample.com/api/v1/create', employee);
+  }
 
 
 
